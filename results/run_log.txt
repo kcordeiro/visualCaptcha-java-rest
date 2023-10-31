@@ -1,0 +1,151 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< com.kuhniverse.captcha:visualCaptcha-java-rest >-----------
+[INFO] Building visualCaptcha-java-rest 0.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:1.2.3.RELEASE:run (default-cli) > test-compile @ visualCaptcha-java-rest >>>
+[INFO] 
+[INFO] --- resources:2.6:resources (default-resources) @ visualCaptcha-java-rest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 117 resources
+[INFO] 
+[INFO] --- compiler:2.3.2:compile (default-compile) @ visualCaptcha-java-rest ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:2.6:testResources (default-testResources) @ visualCaptcha-java-rest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/kcordeiro/Dev/visualCaptcha-java-rest/src/test/resources
+[INFO] 
+[INFO] --- compiler:2.3.2:testCompile (default-testCompile) @ visualCaptcha-java-rest ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot:1.2.3.RELEASE:run (default-cli) < test-compile @ visualCaptcha-java-rest <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:1.2.3.RELEASE:run (default-cli) @ visualCaptcha-java-rest ---
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.2.3.RELEASE)
+
+|CAPTCHA|2023-10-31 18:06:45|INFO |c.k.Application:47|Starting Application on Kaseys-MacBook-Pro.local with PID 70038 (/Users/kcordeiro/Dev/visualCaptcha-java-rest/target/classes started by kcordeiro in /Users/kcordeiro/Dev/visualCaptcha-java-rest)
+|CAPTCHA|2023-10-31 18:06:45|DEBUG|c.k.Application:50|Running with Spring Boot v1.2.3.RELEASE, Spring v4.1.6.RELEASE
+|CAPTCHA|2023-10-31 18:06:45|INFO |o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:510|Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fd8154d: startup date [Tue Oct 31 18:06:45 EDT 2023]; root of context hierarchy
+|CAPTCHA|2023-10-31 18:06:46|INFO |o.s.b.f.s.DefaultListableBeanFactory:822|Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+|CAPTCHA|2023-10-31 18:06:46|INFO |o.s.b.f.a.AutowiredAnnotationBeanPostProcessor:153|JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+|CAPTCHA|2023-10-31 18:06:46|DEBUG|o.j.logging:33|Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+|CAPTCHA|2023-10-31 18:06:46|INFO |o.h.v.i.u.Version:27|HV000001: Hibernate Validator 5.1.3.Final
+|CAPTCHA|2023-10-31 18:06:46|DEBUG|o.h.v.i.e.r.DefaultTraversableResolver:80|Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+|CAPTCHA|2023-10-31 18:06:46|DEBUG|o.h.v.i.e.ConfigurationImpl:123|Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+|CAPTCHA|2023-10-31 18:06:46|DEBUG|o.h.v.i.e.ConfigurationImpl:145|Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+|CAPTCHA|2023-10-31 18:06:46|DEBUG|o.h.v.i.e.ConfigurationImpl:159|Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+|CAPTCHA|2023-10-31 18:06:46|DEBUG|o.h.v.i.x.ValidationXmlParser:91|Trying to load META-INF/validation.xml for XML based Validator configuration.
+|CAPTCHA|2023-10-31 18:06:46|DEBUG|o.h.v.i.x.ValidationXmlParser:98|No META-INF/validation.xml found. Using annotation based configuration only.
+|CAPTCHA|2023-10-31 18:06:47|INFO |o.s.b.c.e.t.TomcatEmbeddedServletContainer:79|Tomcat initialized with port(s): 8080 (http)
+|CAPTCHA|2023-10-31 18:06:47|INFO |o.a.c.c.StandardService:180|Starting service Tomcat
+|CAPTCHA|2023-10-31 18:06:47|INFO |o.a.c.c.StandardEngine:180|Starting Servlet Engine: Apache Tomcat/8.0.20
+|CAPTCHA|2023-10-31 18:06:47|INFO |o.a.c.c.C.[.[.[/]:180|Initializing Spring embedded WebApplicationContext
+|CAPTCHA|2023-10-31 18:06:47|INFO |o.s.w.c.ContextLoader:268|Root WebApplicationContext: initialization completed in 1754 ms
+|CAPTCHA|2023-10-31 18:06:48|INFO |o.s.b.c.e.ServletRegistrationBean:188|Mapping servlet: 'dispatcherServlet' to [/]
+|CAPTCHA|2023-10-31 18:06:48|INFO |o.s.b.c.e.FilterRegistrationBean:286|Mapping filter: 'characterEncodingFilter' to: [/*]
+|CAPTCHA|2023-10-31 18:06:48|INFO |o.s.b.c.e.FilterRegistrationBean:286|Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+|CAPTCHA|2023-10-31 18:06:48|DEBUG|c.k.i.CaptchaRepository:43|Init CaptchaRepository with 37 images and 20 audios
+|CAPTCHA|2023-10-31 18:06:48|DEBUG|o.h.v.i.e.r.DefaultTraversableResolver:80|Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+|CAPTCHA|2023-10-31 18:06:48|DEBUG|o.h.v.i.e.ConfigurationImpl:123|Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+|CAPTCHA|2023-10-31 18:06:48|DEBUG|o.h.v.i.e.ConfigurationImpl:145|Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+|CAPTCHA|2023-10-31 18:06:48|DEBUG|o.h.v.i.e.ConfigurationImpl:159|Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy47
+|CAPTCHA|2023-10-31 18:06:48|DEBUG|o.h.v.i.x.ValidationXmlParser:91|Trying to load META-INF/validation.xml for XML based Validator configuration.
+|CAPTCHA|2023-10-31 18:06:48|DEBUG|o.h.v.i.x.ValidationXmlParser:98|No META-INF/validation.xml found. Using annotation based configuration only.
+|CAPTCHA|2023-10-31 18:06:48|INFO |o.s.w.s.m.m.a.RequestMappingHandlerAdapter:517|Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fd8154d: startup date [Tue Oct 31 18:06:45 EDT 2023]; root of context hierarchy
+|CAPTCHA|2023-10-31 18:06:48|INFO |o.s.w.s.m.m.a.RequestMappingHandlerMapping:217|Mapped "{[/api/sample],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.kuhniverse.domain.SampleResponse com.kuhniverse.web.SampleController.processResponse(com.kuhniverse.domain.SampleRequest)
+|CAPTCHA|2023-10-31 18:06:48|INFO |o.s.w.s.m.m.a.RequestMappingHandlerMapping:217|Mapped "{[/audio],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.kuhniverse.web.CaptchaController.audio(javax.servlet.http.HttpServletResponse)
+|CAPTCHA|2023-10-31 18:06:48|INFO |o.s.w.s.m.m.a.RequestMappingHandlerMapping:217|Mapped "{[/audio/{audioType}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.kuhniverse.web.CaptchaController.audio(java.lang.String,javax.servlet.http.HttpServletResponse)
+|CAPTCHA|2023-10-31 18:06:48|INFO |o.s.w.s.m.m.a.RequestMappingHandlerMapping:217|Mapped "{[/image/{index}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.kuhniverse.web.CaptchaController.image(int,javax.servlet.http.HttpServletResponse)
+|CAPTCHA|2023-10-31 18:06:48|INFO |o.s.w.s.m.m.a.RequestMappingHandlerMapping:217|Mapped "{[/try],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.kuhniverse.web.CaptchaController.validate(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+|CAPTCHA|2023-10-31 18:06:48|INFO |o.s.w.s.m.m.a.RequestMappingHandlerMapping:217|Mapped "{[/start/{howMany}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.kuhniverse.domain.CaptchaFrontEndData com.kuhniverse.web.CaptchaController.start(int)
+|CAPTCHA|2023-10-31 18:06:48|INFO |o.s.w.s.m.m.a.RequestMappingHandlerMapping:217|Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+|CAPTCHA|2023-10-31 18:06:48|INFO |o.s.w.s.m.m.a.RequestMappingHandlerMapping:217|Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+|CAPTCHA|2023-10-31 18:06:48|INFO |o.s.w.s.c.a.WebMvcConfigurerAdapter:277|Adding welcome page: file:/Users/kcordeiro/Dev/visualCaptcha-java-rest/src/main/webapp/index.html
+|CAPTCHA|2023-10-31 18:06:48|INFO |o.s.w.s.h.SimpleUrlHandlerMapping:301|Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+|CAPTCHA|2023-10-31 18:06:48|INFO |o.s.w.s.h.SimpleUrlHandlerMapping:314|Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+|CAPTCHA|2023-10-31 18:06:48|INFO |o.s.w.s.h.SimpleUrlHandlerMapping:314|Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+|CAPTCHA|2023-10-31 18:06:49|INFO |o.s.w.s.h.SimpleUrlHandlerMapping:314|Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+|CAPTCHA|2023-10-31 18:06:49|INFO |o.s.j.e.a.AnnotationMBeanExporter:431|Registering beans for JMX exposure on startup
+|CAPTCHA|2023-10-31 18:06:49|INFO |o.a.c.h.Http11NioProtocol:180|Initializing ProtocolHandler ["http-nio-8080"]
+|CAPTCHA|2023-10-31 18:06:49|INFO |o.a.c.h.Http11NioProtocol:180|Starting ProtocolHandler ["http-nio-8080"]
+|CAPTCHA|2023-10-31 18:06:49|INFO |o.a.t.u.n.NioSelectorPool:180|Using a shared selector for servlet write/read
+|CAPTCHA|2023-10-31 18:06:49|INFO |o.s.b.c.e.t.TomcatEmbeddedServletContainer:159|Tomcat started on port(s): 8080 (http)
+|CAPTCHA|2023-10-31 18:06:49|INFO |c.k.Application:56|Started Application in 3.482 seconds (JVM running for 8.302)
+|CAPTCHA|2023-10-31 18:06:49|DEBUG|c.k.Application:23|Application  started
+|CAPTCHA|2023-10-31 18:07:08|INFO |o.a.c.c.C.[.[.[/]:180|Initializing Spring FrameworkServlet 'dispatcherServlet'
+|CAPTCHA|2023-10-31 18:07:08|INFO |o.s.w.s.DispatcherServlet:484|FrameworkServlet 'dispatcherServlet': initialization started
+|CAPTCHA|2023-10-31 18:07:08|INFO |o.s.w.s.DispatcherServlet:503|FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+|CAPTCHA|2023-10-31 18:07:21|DEBUG|c.k.w.CaptchaController:85|Validating captcha response
+|CAPTCHA|2023-10-31 18:07:21|ERROR|o.a.c.c.C.[.[.[.[dispatcherServlet]:182|Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Captcha not initialized, cannot validate] with root cause
+java.lang.RuntimeException: Captcha not initialized, cannot validate
+	at com.kuhniverse.business.CaptchaSession.validate(CaptchaSession.java:116) ~[classes/:na]
+	at com.kuhniverse.business.CaptchaSession$$FastClassBySpringCGLIB$$b9480c5.invoke(<generated>) ~[spring-core-4.1.6.RELEASE.jar:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717) ~[spring-aop-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:133) ~[spring-aop-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:121) ~[spring-aop-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653) ~[spring-aop-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at com.kuhniverse.business.CaptchaSession$$EnhancerBySpringCGLIB$$2ea69e50.validate(<generated>) ~[spring-core-4.1.6.RELEASE.jar:na]
+	at com.kuhniverse.web.CaptchaController.validate(CaptchaController.java:97) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_392]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_392]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_392]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_392]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:644) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842) ~[spring-webmvc-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219) ~[tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:516) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1086) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:659) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1558) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1515) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_392]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_392]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.0.20.jar:8.0.20]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_392]
+^C|CAPTCHA|2023-10-31 18:07:57|INFO |o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:862|Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7fd8154d: startup date [Tue Oct 31 18:06:45 EDT 2023]; root of context hierarchy
+|CAPTCHA|2023-10-31 18:07:57|INFO |o.s.j.e.a.AnnotationMBeanExporter:449|Unregistering JMX-exposed beans on shutdown
