@@ -45,7 +45,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.7</version>
+            <version>2.0.9</version>
         </dependency>
         <dependency>
             <groupId>javax.inject</groupId>
@@ -56,14 +56,14 @@
         <dependency>
             <groupId>jakarta.xml.bind</groupId>
             <artifactId>jakarta.xml.bind-api</artifactId>
-            <version>2.3.2</version>
+            <version>4.0.1</version>
         </dependency>
 
         <!-- Runtime, com.sun.xml.bind module -->
         <dependency>
             <groupId>org.glassfish.jaxb</groupId>
             <artifactId>jaxb-runtime</artifactId>
-            <version>2.3.2</version>
+            <version>4.0.4</version>
         </dependency>
 
         <!-- test -->
@@ -138,6 +138,8 @@
                     <forkedProcessTimeoutInSeconds>1200</forkedProcessTimeoutInSeconds>
                     <argLine>-XX:MaxPermSize=128m -Xmx256m</argLine>
                     -->
+                    <!-- Increase heap size to provide more memory -->
+                    <argLine>-XX:MaxPermSize=256m -Xmx1024m</argLine>
                     <!-- Force alphabetical order to have a reproducible build -->
                     <runOrder>alphabetical</runOrder>
                 </configuration>
